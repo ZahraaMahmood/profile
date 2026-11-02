@@ -205,7 +205,7 @@ section {
 }
 .hero-footer {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   justify-content: space-between;
   gap: 50px;
 }
@@ -462,7 +462,7 @@ section {
 .section-heading {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
   gap: 70px;
   margin-bottom: 65px;
 }
@@ -532,7 +532,7 @@ section {
   list-style: none;
   display: flex;
   gap: 9px;
-  align-items: start;
+  align-items: flex-start;
   margin-bottom: 8px;
 }
 .case-sub li svg {
@@ -608,7 +608,7 @@ section {
 .arch-node {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   gap: 11px;
   padding: 21px 15px;
   width: 100%;
@@ -772,7 +772,7 @@ section {
   padding: 27px;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   transition:
     border-color 0.2s,
     transform 0.2s;
@@ -990,7 +990,7 @@ section {
   }
   .arch-path {
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: flex-start;
   }
   .node-holder {
     flex: 0 0 30%;
@@ -1062,7 +1062,7 @@ section {
   }
   .hero-footer {
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     gap: 25px;
   }
   .hero-meta {
@@ -1072,7 +1072,7 @@ section {
     font-size: 14px;
   }
   .marquee-inner {
-    justify-content: start;
+    justify-content: flex-start;
     overflow: hidden;
   }
   .intro {
@@ -1103,7 +1103,7 @@ section {
   }
   .section-heading {
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     gap: 22px;
     margin-bottom: 40px;
   }
